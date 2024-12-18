@@ -16,7 +16,7 @@ body {
 }
 
 .notice p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   text-align: center;
   color: #121214;
@@ -36,31 +36,72 @@ header {
   padding-inline: 1.5rem;
 }
 
-header img{
-    width: 8.875rem;
-    margin-bottom: 2.5rem;
+header img {
+  width: 8.875rem;
+  margin-bottom: 2.5rem;
 }
 
-
-.header-info{
-    color: #f3f7ff;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-
+.header-info {
+  color: #f3f7ff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .header-info h1 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--white);
-  }
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #f3f7ff;
+}
+
+.header-info p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #f3f7ff;
+
+  max-width: 20.5rem;
+}
+
+/* Section */
+
+section {
+  padding: 3.5rem 1.5rem;
+}
+
+.section-container h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #121214;
+  margin-bottom: 0.75rem;
+}
+
+section > p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 19.6px;
+  color: #121214;
+
+  max-width: 19.9375rem;
+  margin: 0 auto 2.5rem auto;
+}
+
+
+
+.sneakers-container{
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  gap: 2.5rem;
+}
+
+.card .card-img{
+  width: 100%;
+  background: #f3f7ff;
+  display: flex;
+  align-items: center;
   
-  .header-info p {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 22.4px;
-    color: var(--white);
-  
-    max-width: 20.5rem;
-  }
+}
+
+
